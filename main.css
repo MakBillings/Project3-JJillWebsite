@@ -1,0 +1,69 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Ysabeau&display=swap');
+/* end font import */
+
+/* start fonts */
+h2 {
+    font-family:'Ysabeau', sans-serif;
+    text-transform: uppercase;
+
+}
+
+h4, button {
+    font-family:'DM Sans', sans-serif;
+    text-transform: uppercase;
+}
+/* end fonts */
+
+/* start hero-left side */
+.hero-text h2{
+    font-size: 4em;
+    text-align: center;
+}
+
+.hero-text button {
+    font-size: .8em;
+    font-weight: 600;
+    text-align: center;
+    background-color: #ffff;
+    color: #13508D;
+    border: none;
+}
+
+.hero-left {
+    background-image: url(images\BackgroundHeroImage.jpg);
+    width: 50%;
+    float: left;
+    display: inline-flex;
+
+}
+/* end hero-left side */
+
+/* strat hero-right side */
+.hero-right {
+    display: inline-flex;
+    float:left
+}
+/* end hero right side */
+
+
+/* start sale section */
+.sale {
+    background-color: #13508D;
+    width: 100%;
+}
+
+.sale h2, div, button {
+    color:#ffff;
+    text-align: center;
+}
+/* end sale section */
+
+/* start nev section */
+.images img {
+    height: auto;
+    display: block;
+    width: 50%;
+
+}
+/* end nav section */
