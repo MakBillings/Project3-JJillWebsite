@@ -6,44 +6,57 @@
 h2 {
     font-family:'Ysabeau', sans-serif;
     text-transform: uppercase;
-
 }
 
 h4, button {
     font-family:'DM Sans', sans-serif;
     text-transform: uppercase;
+    padding: 1em;
 }
 /* end fonts */
 
 /* start hero-left side */
 .hero-text h2{
     font-size: 4em;
-    text-align: center;
+    margin-bottom: 0;
+    color: #ffff;
 }
 
+.hero-text h4 {
+    margin-top: 0;
+    color: #ffff;
+}
 .hero-text button {
     font-size: .8em;
     font-weight: 600;
-    text-align: center;
     background-color: #ffff;
     color: #13508D;
     border: none;
+    margin-bottom: 5%;
 }
 
-.hero-left {
-    background-image: url(images\BackgroundHeroImage.jpg);
-    width: 50%;
-    float: left;
-    display: inline-flex;
-
+.hero-text {
+text-align: center;
+background-color: #13508D;
+float: left;
+width: 50%;
+height: 100%;
 }
+
 /* end hero-left side */
 
-/* strat hero-right side */
-.hero-right {
-    display: inline-flex;
-    float:left
+/* start hero-right side */
+.hero-right img {
+    float: left;
+    position:absolute;
+    width: 50%;
+    height: auto;
 }
+
+.hero-right {
+    display:flex;
+}
+
 /* end hero right side */
 
 
@@ -51,19 +64,12 @@ h4, button {
 .sale {
     background-color: #13508D;
     width: 100%;
+    margin-top: 60%;
+    position: relative;
 }
 
 .sale h2, div, button {
     color:#ffff;
     text-align: center;
-}
+} 
 /* end sale section */
-
-/* start nev section */
-.images img {
-    height: auto;
-    display: block;
-    width: 50%;
-
-}
-/* end nav section */
