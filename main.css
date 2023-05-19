@@ -35,41 +35,80 @@ h4, button {
     margin-bottom: 5%;
 }
 
-.hero-text {
-text-align: center;
-background-color: #13508D;
-float: left;
-width: 50%;
-height: 100%;
+.hero-text h2, h4 {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
+.hero-text {
+    text-align: center;
+    background-color: #13508D;
+    float: left;
+    width: auto;
+    height: 35em;
+    margin-left: 20%;
+}
 /* end hero-left side */
+
 
 /* start hero-right side */
 .hero-right img {
     float: left;
-    position:absolute;
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 35em;
+    margin-right: 10%;
+    padding:0;
 }
 
 .hero-right {
     display:flex;
 }
-
 /* end hero right side */
 
 
 /* start sale section */
 .sale {
     background-color: #13508D;
-    width: 100%;
-    margin-top: 60%;
-    position: relative;
+    margin-top: 3%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 3%; 
+    height: fit-content;
 }
 
-.sale h2, div, button {
-    color:#ffff;
+.sale h2 {
+    font-size: 4em;
+    margin: 1em;
+    color: #ffff;
     text-align: center;
-} 
+    float: left;
+}
+
+.sale-details {
+    color: #ffff;
+    text-align: center;
+}
+
+.sale button {
+    background-color: #13508D;
+    border-width: 0.25em;
+    border-color: #ffff;
+    color: #ffff;
+}
 /* end sale section */
+
+
+/* start nav section */
+.images img {
+    float: left;
+    height: 20em;
+    width: auto;
+    padding: 1em;
+}
+
+.labels h2 {
+    float: left;
+    margin: 2em;
+}
+
+/* end nav section */
