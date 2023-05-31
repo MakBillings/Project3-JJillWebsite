@@ -15,18 +15,30 @@ h4, button {
 }
 /* end fonts */
 
-/* start hero-left side */
-.hero-text h2{
+/* start hero */
+
+.header {
+    width: 100%;
+}
+
+.hero {
+    width: 50%;
+    float: left;
+    margin:5px;
+    padding: 10px;
+    background-color: #13508D;
+}
+
+.header h2 {
     font-size: 4em;
-    margin-bottom: 0;
     color: #ffff;
 }
 
-.hero-text h4 {
-    margin-top: 0;
+.header h4 {
     color: #ffff;
 }
-.hero-text button {
+
+.header button {
     font-size: .8em;
     font-weight: 600;
     background-color: #ffff;
@@ -35,39 +47,23 @@ h4, button {
     margin-bottom: 5%;
 }
 
-.hero-text h2, h4 {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.hero-text {
+.hero {
     text-align: center;
-    background-color: #13508D;
+}
+
+.hero img {
+    padding:0%;
+    margin-left:0%;
+    width: 50%;
+    height: auto;
     float: left;
-    width: auto;
-    height: 35em;
-    margin-left: 20%;
-}
-/* end hero-left side */
-
-
-/* start hero-right side */
-.hero-right img {
-    float: left;
-    width: auto;
-    height: 35em;
-    margin-right: 10%;
-    padding:0;
 }
 
-.hero-right {
-    display:flex;
-}
-/* end hero right side */
+/* end hero side */
 
 
 /* start sale section */
-.sale {
+/* .sale {
     background-color: #13508D;
     margin-top: 3%;
     margin-left: 22%;
@@ -94,21 +90,23 @@ h4, button {
     border-width: 0.25em;
     border-color: #ffff;
     color: #ffff;
-}
+} */
 /* end sale section */
 
 
 /* start nav section */
-.images img {
+.navigation {
+    width: 100%;
+}
+
+.image {
     float: left;
-    height: 20em;
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    height: 15em;
     width: auto;
-    padding: 1em;
 }
-
-.labels h2 {
-    float: left;
-    margin: 2em;
-}
-
 /* end nav section */
